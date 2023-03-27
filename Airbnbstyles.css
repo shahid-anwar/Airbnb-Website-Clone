@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size:12px;
+    font-weight: 500;
+  }
+.airbnb-home{
+    font-weight: 600;
+    font-size: 12px;
+    border:1px solid transparent;
+    border-radius: 21px;
+    cursor: pointer;
+    padding:10px;
+    
+}
+.namerating{
+    display: flex;
+    justify-content: space-between;
+}
+.upper-header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding:0;
+    gap:100px;
+    border-bottom: 1px solid #c7c7c7;
+    width: 100%;
+     /* padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom:10px; */
+    padding: 10px 40px 20px;
+    align-items: center;
+    text-align: center;
+    /* position: fixed; */
+} 
+.logo-airbnb{
+    width: 20%;
+}
+.world-button{
+    background-color: white;
+    outline: none;
+    border:none
+}
+.world-button{
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.world-button:hover{
+    padding: 10px;
+    background-color:#f7f4f4 ;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.upper-middle-header{
+    display:flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c7c7c7;
+    border-radius: 40px;
+    padding: 7px 15px 7px 15px; 
+    text-align: end;
+    background-color: none;
+    min-width: 348px;
+}
+.upper-middle-header:hover{
+    box-shadow: 0px 1px 0px #c7c7c7;
+    cursor: pointer;
+
+}
+.add-guest-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upper-last-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap:20px; */
+    box-sizing: border-box;
+    /* width: 30%; */
+   
+}
+.menu-profile{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    box-shadow: 0px 1px 0px transparent;
+    background-color: transparent;
+    padding: 2px;
+
+}
+
+div.lower-header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    /* display: grid;
+    grid-template-columns: 100%; */
+    align-items: center;
+    flex-direction:row;
+    height: 100px;
+    /* width: 100%; */
+    padding:0px 25px 0px 25px;
+    position: sticky !important;
+    top: -1px;
+    line-height: 20px !important;
+    z-index: 999;
+    background-color: white;
+    /* position: fixed; */
+    /* box-shadow: 0px 1px 0px #c7c7c7; */
+    /* border-bottom: 0.5px solid #c7c7c7; */
+}
+
+.header-icon{
+    display: flex;
+    justify-content: space-evenly;
+    gap:25px;
+}
+.all-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#717171;
+    opacity: 0.7;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    padding:4px 0 14px 0;
+    position: relative;
+    border-bottom: 2px solid transparent;
+}
+.menu-button{
+    padding: 5px 7px 5px 10px;
+    background-color: white;
+    border:1px solid #c7c7c7;
+    border-radius: 30px;
+    font-size: 24px;
+    color:grey;
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+.menu-button:hover{
+    border-radius: 30px;
+    box-shadow: 0px 1px 0px #c7c7c7;
+}
+.icons-image{
+    color:#c7c7c7;
+    padding:4px;
+}
+.airbnb-header{
+    /* position:relative; */
+    padding-top: 10px;
+    background-color: white;
+
+}
+.arrow-button{
+    background-color: white;
+    border:1px solid #c7c7c7;
+    border-radius: 50%;
+    height: 28px;
+    width:27px;
+    position: relative;
+    top: -5px;
+    right: 5px;
+    cursor: pointer;
+   
+}
+.arrow-button:hover{
+    box-shadow: 0px 1px 0px #c7c7c7;
+    transition: transform 0.2s;
+    transform: scale(1.03);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+}
+.logo:hover{
+    cursor:pointer;
+}
+.anywhere-button:hover{
+    cursor:pointer;
+}
+.anyweek-button:hover{
+    cursor:pointer;
+}
+.guest-search-button:hover{
+    cursor:pointer;
+}
+.anywhere-button,.anyweek-button,.guest-search-button{
+    background-color: white;
+    border: 1px solid transparent;
+}
+.search-box{
+    background-color:#FF385C;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid transparent;
+    /* border:none; */
+    border-radius: 50%; 
+    padding: 8px;
+    margin-left: 5px;
+   margin-right:0px ;
+   
+}
+.filter-button{
+    background-color: white;
+    border:1px solid #dedede;
+    border-radius: 10px;
+    padding:15px;
+    display: flex;
+    align-items: center;
+    gap:6px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+.guest-search-button{
+    display:flex;
+    align-items: center;
+    gap:6px;
+}
+.button-text{
+    padding: 0 6px 0 6px;
+}
+.header-icon{
+    position: relative;
+}
+.all-icons:hover{
+    color: black;
+    font-weight: 600;
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom:14px;
+    cursor: pointer;
+    opacity: 1;
+}
+.anyweek-button-text,.anywhere-button-text{
+    color:black;
+    font: size 14px;
+    font-weight: bold;
+}
+.guest-search-button{
+    color:#717171;
+    font-weight: 500;
+}
+.filter{
+    width: 15%;
+    border: 2px solid transparent;
+    padding-bottom: 8px;
+}
+.main-section{
+    display: grid;
+    grid-auto-flow: row dense;
+    /* grid-template-rows: repeat(auto-fit,3); */
+     grid-template-columns: repeat(3,1fr);
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-between;   */
+    margin: 0px 18px 18px 18px;
+    padding: 0px 12px 0 12px;
+    /* background-color: bisque; */
+}
+.hotels-image{
+    object-fit: cover;
+    vertical-align: bottom;
+    height:220.45px ;
+    width:100% ;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    /* position: relative; */
+} 
+.container-css{
+    padding: 12px;
+    padding-bottom: 0;
+    position: relative;
+    /* border: 2px solid aqua; */
+    /* width:32%; */
+    /* height: 40%; */
+}
+.hotels-fav{
+    position:absolute;
+    top:23px;
+    left: 24px;
+    height: 26px;
+    width:26px;
+    color:white;
+}
+.anyweek-box,.anywhere-box{
+    border-right: 2px solid #c7c7c7;
+    padding-right: 15px;
+}
+.hotels-name,.hotels-price,.hotels-description,.hotels-time,.hotels-rating{
+    font-family: "Montserrat", sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color:#717171
+}
+.hotels-rating{
+    font-weight: bold;
+    color: black;
+}
+.hotels-name{
+    font-weight: 600;
+    font-size: 14px;
+    width: 80%;
+    color:black
+}
+.hotels-price{
+    font-weight: bolder;
+    color:black;
+    font-weight: 600;
+}
+.container-css:hover{
+    cursor: pointer;
+}
+.map-button{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 14px;
+    gap: 6px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    box-shadow: 0px 1px 0px black;
+    padding: 14px 19px;
+    cursor: pointer;
+    font-family:"Montserrat", sans-serif; 
+    position: fixed;
+    bottom:60px;
+   right: 10px;
+    /* gap:2px; */
+}
+.map-svg{
+    fill:white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 40px 14px 40px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    border-top: 1px solid #c7c7c7;
+
+}
+.first-footer{
+    display: flex;
+    justify-content: space-between;
+    gap:4px;
+    font-weight:400;
+    color:#222222;
+}
+ .last-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    font-weight: bold;
+} 
+.footer-hover{
+    border-bottom:1px solid transparent;
+}
+.footer-hover:hover{
+    border-bottom: 1px solid rgb(22, 22, 22);
+    cursor:pointer;
+}
+p{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+.airbnb-home:hover{
+    background-color: #f7f4f4;
+    border:1px solid transparent;
+    border-radius: 21px;
+    cursor: pointer;
+    padding:10px;
+}
+.hotels-ratingStar{
+    height: 17px;
+    width: 17px;
+    margin: -1px;
+   
+}
